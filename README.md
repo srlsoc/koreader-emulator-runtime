@@ -12,11 +12,11 @@ own licenses; see the runtime's `COPYING` file.
 docker pull ghcr.io/srlsoc/koreader-emulator-runtime:v2026.07-v1
 ```
 
-Immutable reference (record the digest from the publish workflow output
-and pin it in consuming Dockerfiles; never float on a tag):
+Immutable reference (published by workflow run `41951689205`; pin it in
+consuming Dockerfiles; never float on a tag):
 
 ```text
-ghcr.io/srlsoc/koreader-emulator-runtime@sha256:<digest from publish>
+ghcr.io/srlsoc/koreader-emulator-runtime@sha256:aaf2c8e6a88aa41671963c1300b9268cf2bb9becdc9965912a8a13ece33b1f8b
 ```
 
 ## Provenance
